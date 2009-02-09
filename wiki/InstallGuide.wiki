@@ -1,5 +1,5 @@
 #labels Phase-Implementation
 1、下载thinkphp plugin for netbeans<br/> 
-<a href="http://thinkphpplugin4netbeans.googlecode.com/files/ThinkPhpPlugin.nbm">点击下载</a>
+<a href="http://thinkphpplugin4netbeans.googlecode.com/files/ThinkPhpPlugin.nbm">点击下载</a><br/>
 2、安装插件
    启动Netbeans，点击菜单“工具”=>“插件”=>“已下载”，然后点击“安装插件”按钮，在弹出对话框中选择下载的那个文件，按操作安装即可。
