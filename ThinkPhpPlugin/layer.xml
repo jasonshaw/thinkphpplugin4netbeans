@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="PHP">
+            <file name="ThinkPhpPlugin-Action-AboutAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="ThinkPhpPlugin.Bundle"/>
+                <attr name="delegate" newvalue="ThinkPhpPlugin.Action.AboutAction"/>
+                <attr name="displayName" bundlevalue="ThinkPhpPlugin.Action.Bundle#CTL_AboutAction"/>
+                <attr name="iconBase" stringvalue="ThinkPhpPlugin/59_avatar_middle.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" stringvalue="false"/>
+            </file>
+            <file name="ThinkPhpPlugin-Action-NewActionFile.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="ThinkPhpPlugin.Bundle"/>
+                <attr name="delegate" newvalue="ThinkPhpPlugin.Action.NewActionFile"/>
+                <attr name="displayName" bundlevalue="ThinkPhpPlugin.Action.Bundle#CTL_NewActionFile"/>
+                <attr name="iconBase" stringvalue="ThinkPhpPlugin/59_avatar_middle.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" stringvalue="false"/>
+            </file>
+            <file name="ThinkPhpPlugin-Menu-DebugAction.instance"/>
+        </folder>
+    </folder>
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="x-php5">
+                <folder name="Popup">
+                    <file name="ThinkPhpPlugin-Menu-DebugAction-separatorAfter.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="450"/>
+                    </file>
+                    <file name="ThinkPhpPlugin-Menu-DebugAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/PHP/ThinkPhpPlugin-Menu-DebugAction.instance"/>
+                        <attr name="position" intvalue="400"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Help">
+            <file name="ThinkPhpPlugin-Action-AboutAction-separatorBefore.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="1550"/>
+            </file>
+            <file name="ThinkPhpPlugin-Action-AboutAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/PHP/ThinkPhpPlugin-Action-AboutAction.instance"/>
+                <attr name="position" intvalue="1600"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="OptionsDialog">
+        <file name="ThinkphpSettingOptionsCategory.instance">
+            <attr name="categoryName" bundlevalue="ThinkPhpPlugin.Setting.Bundle#OptionsCategory_Name_ThinkphpSetting"/>
+            <attr name="controller" newvalue="ThinkPhpPlugin.Setting.ThinkphpSettingOptionsPanelController"/>
+            <attr name="iconBase" stringvalue="ThinkPhpPlugin/logo.png"/>
+            <attr name="instanceCreate" methodvalue="org.netbeans.spi.options.OptionsCategory.createCategory"/>
+            <attr name="keywords" bundlevalue="ThinkPhpPlugin.Setting.Bundle#OptionsCategory_Keywords_ThinkphpSetting"/>
+            <attr name="keywordsCategory" stringvalue="ThinkphpSetting"/>
+            <attr name="title" bundlevalue="ThinkPhpPlugin.Setting.Bundle#OptionsCategory_Title_ThinkphpSetting"/>
+        </file>
+    </folder>
+    <folder name="Templates">
+        <folder name="Project">
+            <folder name="PHP">
+                <file name="ThinkProjectProject.zip" url="ThinkProjectProject.zip">
+                    <attr name="SystemFileSystem.localizingBundle" stringvalue="ThinkPhpPlugin.Bundle"/>
+                    <attr name="instantiatingIterator" methodvalue="ThinkPhpPlugin.Project.ThinkProjectWizardIterator.createIterator"/>
+                    <attr name="instantiatingWizardURL" urlvalue="nbresloc:/ThinkPhpPlugin/Project/ThinkProjectDescription.html"/>
+                    <attr name="template" boolvalue="true"/>
+                    <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/ThinkPhpPlugin/Files/59_avatar_middle.png"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="Scripting">
+            <file name="entrance">
+                <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/ThinkPhpPlugin/59_avatar_middle.png"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="ThinkPhpPlugin.Bundle"/>
+                <attr name="instantiatingIterator" newvalue="ThinkPhpPlugin.Files.EntranceWizardIterator"/>
+                <attr name="template" boolvalue="true"/>
+                <attr name="templateWizardURL" urlvalue="nbresloc:/ThinkPhpPlugin/Files/entrance.html"/>
+            </file>
+            <file name="fileAction">
+                <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/ThinkPhpPlugin/Files/59_avatar_middle.png"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="ThinkPhpPlugin.Bundle"/>
+                <attr name="instantiatingIterator" newvalue="ThinkPhpPlugin.Files.FileActionWizardIterator"/>
+                <attr name="template" boolvalue="true"/>
+                <attr name="templateWizardURL" urlvalue="nbresloc:/ThinkPhpPlugin/Files/fileAction.html"/>
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+            </file>
+            <file name="fileModel">
+                <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/ThinkPhpPlugin/Files/59_avatar_middle.png"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="ThinkPhpPlugin.Bundle"/>
+                <attr name="instantiatingIterator" newvalue="ThinkPhpPlugin.Files.FileModelWizardIterator"/>
+                <attr name="template" boolvalue="true"/>
+                <attr name="templateWizardURL" urlvalue="nbresloc:/ThinkPhpPlugin/Files/fileModel.html"/>
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+            </file>
+        </folder>
+        <folder name="Other">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="ThinkPhpPlugin.Bundle"/>
+            <file name="htmljquery.html" url="nbresloc:/ThinkPhpPlugin/template/ThinkphpHtmlJquery.html">
+                <attr name="template" boolvalue="true"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="ThinkPhpPlugin.Bundle"/>
+                <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/ThinkPhpPlugin/Files/59_avatar_middle.png"/>
+                <attr name="templateWizardURL" urlvalue="nbresloc:/ThinkPhpPlugin/template/jqueryhtml.html"/>
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+            </file>
+            <file name="htmlthink.html" url="nbresloc:/ThinkPhpPlugin/template/ThinkphpHtmlThinkajax.html">
+                <attr name="template" boolvalue="true"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="ThinkPhpPlugin.Bundle"/>
+                <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/ThinkPhpPlugin/Files/59_avatar_middle.png"/>
+                <attr name="templateWizardURL" urlvalue="nbresloc:/ThinkPhpPlugin/template/thinkajaxhtml.html"/>
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>
