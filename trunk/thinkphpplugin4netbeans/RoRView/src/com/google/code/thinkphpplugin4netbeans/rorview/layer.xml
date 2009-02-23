@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Projects">
+        <folder name="org-netbeans-modules-php-project">
+            <folder name="Nodes">
+                <file name="com-google-code-thinkphpplugin4netbeans-rorview-nodes-CoreNodeFactory.instance"/>
+                <file name="com-google-code-thinkphpplugin4netbeans-rorview-nodes-PublicNodeFactory.instance"/>
+                <file name="org-netbeans-modules-php-project-ui-logicalview-SourcesNodeFactory.instance_hidden" />
+                <file name="org-netbeans-modules-php-project-ui-logicalview-IncludePathNodeFactory.instance_hidden" />
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

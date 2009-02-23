@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.google.code.thinkphpplugin4netbeans.options
+OpenIDE-Module-Layer: com/google/code/thinkphpplugin4netbeans/options/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/google/code/thinkphpplugin4netbeans/options/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
